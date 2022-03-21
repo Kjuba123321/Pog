@@ -1,20 +1,20 @@
 body {
   font-family: Arial;
+  font-size: 1rem;
 }
-.section1 {
+.header {
   margin-left: 150px;
   margin-bottom: 20px;
-  margin-top: -20px;
   display: flex;
   align-items: center;
   background-color: white;
 }
-.div1 {
+.navigation {
   padding-left: 50%;
   font-size: 1.2em;
   align-items: center;
 }
-a {
+.nav__link {
   text-decoration: none;
   display: inline-flex;
   color: grey;
@@ -32,16 +32,11 @@ a:hover {
   height: 50px;
   padding-top: 25px;
 }
-li {
-  display: inline-flex;
-  padding-left: 15px;
-  padding-right: 15px;
-}
-.divens {
+.navigation__item {
   display: inline-flex;
   align-items: center;
 }
-.divens::after {
+.navigation__item::after {
   content: "";
   display: inline-flex;
   border-right: 1px solid rgb(153, 145, 145);
@@ -49,135 +44,162 @@ li {
   height: 45px;
   margin-top: 20px;
   align-items: center;
+  padding-right: 8px;
 }
-.divensnoborder {
+.no-border {
   display: inline-flex;
+  border: none;
 }
-.section2 {
+.section__introduction {
   background-color: lightgray;
   height: 400px;
   width: 100%;
 
   display: flex;
 }
-.divens2 {
+.div__introduction {
   width: 30%;
-  height: 98%;
+  height: 50px;
   padding: 30px 10px 10px 15px;
   padding-top: 60px;
 }
-.divens2-2 {
-  display: inline-flex;
-  width: 70%;
-  content: url(schody1.png);
-}
-
-h2 {
+.title__introduction {
   color: rgb(236, 166, 73);
   font-weight: 300;
+  font-size: 25px;
 }
-.section3 {
+.img__introduction {
+  display: inline-flex;
+  width: 100%;
+  content: url(/img/schody1.png);
+}
+.section__home {
   background-color: white;
   width: 100%;
-  height: 400px;
+  height: 700px;
   display: flex;
 }
-.divens3 {
-  width: 30%;
-  height: 75%;
-  margin-top: 4.9%;
-  margin-left: 17.5%;
-  content: url(Pokoj.jpg);
-}
-.divens3-1 {
-  border: 2px solid rgb(236, 166, 73);
-  color: rgb(236, 166, 73);
-  width: 30%;
-  height: 70%;
-  margin-top: 150px;
-  margin-right: 15px;
-  margin-left: -30px;
-  padding-left: 50px;
-  padding-top: 55px;
-}
-.linia {
-  height: 1.3px;
-  color: rgb(236, 166, 73);
-  border: rgb(236, 166, 73);
-  background-color: rgb(236, 166, 73);
-  width: 30%;
-  border-radius: 10px;
-  margin-left: 0px;
-  padding-left: 10px;
-}
-.cookie {
+.cookies {
   border: 1px solid rgb(236, 166, 73);
-  height: 25%;
+  height: 100px;
   width: 200px;
   margin-top: 150px;
   margin-left: 10px;
+  padding-top: 5px;
 }
-.ciasteczka {
+.link__cookies {
   text-decoration: none;
-  color: rgb(236, 166, 73);
   padding-left: 0px;
-  padding-right: -30px;
   margin-top: 0px;
-  margin-right: -10px;
   align-items: center;
+  text-decoration: none;
+  display: inline-flex;
+  color: grey;
+  transition: 1.5s;
 }
-footer {
+.img__home {
+  width: 30%;
+  height: 450px;
+  margin-top: 4.9%;
+  margin-left: 17.5%;
+  content: url(/img/Pokoj.jpg);
+  display: flex;
+}
+.div__home {
+  border: 2px solid rgb(236, 166, 73);
+  color: rgb(236, 166, 73);
+  width: 35%;
+  height: 390px;
+  margin-top: 190px;
+  padding-top: 50px;
+  right: 30px;
+  position: relative;
+}
+.title__home {
+  color: rgb(236, 166, 73);
+  font-weight: 300;
+  font-size: 25px;
+  padding-left: 35px;
+}
+.line__home {
+  height: 2px;
+  color: rgb(236, 166, 73);
+  border: rgb(236, 166, 73);
+  background-color: rgb(236, 166, 73);
+  border-radius: 16px;
+  width: 25%;
+  margin-left: 35px;
+}
+.text__home {
+  padding-left: 35px;
+}
+.footer {
   border: 2px solid transparent;
   margin-top: 100px;
   height: 320px;
   display: flex;
-}
-.section4 {
   border: 2px solid transparent;
-  width: 100%;
-  height: 320px;
-  margin-top: 5px;
-  display: flexbox;
+  margin-top: 25px;
+  display: block;
   align-items: center;
 }
-.divfooter {
+
+.div__contact {
   border: 2px solid transparent;
   height: 40%;
-  width: 100%;
+  align-items: center;
   text-align: center;
   padding-top: 45px;
   color: rgb(236, 166, 73);
   font-size: 25px;
   background-color: lightgray;
 }
-.divfootera:hover {
+.number__contact {
+  text-decoration: none;
+  text-decoration: none;
+  display: inline-flex;
+  color: grey;
+  transition: 1.5s;
+}
+.number__contact:hover {
   color: rgb(236, 166, 73);
   font-size: 25px;
-  align-items: center;
 }
-.pog {
+.media__contact {
+  border: 2px solid transparent;
+  padding-top: 55px;
   display: flex;
-  align-items: center;
+  margin-left: 46%;
+}
+.facebook__contact {
+  content: url(/img/facebook.png);
+}
+.instagram__contact {
+  content: url(/img/instagram.png);
+  padding-left: 20px;
+}
+.youtube__contact {
+  content: url(/img/youtube.png);
+  padding-left: 20px;
+}
+
+.navigation__footer {
+  border: 2px solid transparent;
+  margin-left: 32.5%;
   text-align: center;
-  margin-left: 45%;
-}
-.facebook {
-  content: url(facebook.png);
   align-items: center;
+  font-size: medium;
+  display: flex;
+  padding-top: 40px;
+  margin-bottom: 60px;
+  padding-bottom: 20px;
+  color: gray;
 }
-.instagram {
-  content: url(instagram.png);
-  align-items: center;
-}
-.youtube {
-  content: url(youtube.png);
-  align-items: center;
-}
-.copyright {
+.visits__footer {
   margin-top: 8px;
   border: 2px solid transparent;
-  height: 90.5px;
-  display: flexbox;
+  height: 100px;
+  display: block;
   text-align: center;
   padding-top: 15px;
   background-color: lightgray;
@@ -185,29 +207,23 @@ footer {
   word-spacing: 30px;
   font-size: 25px;
 }
-.ulu {
+.items__list {
   word-spacing: 0px;
-}
-.stopka {
-  font-size: medium;
-  text-align: center;
   display: inline-flex;
-  padding-top: -40px;
-  margin-bottom: 60px;
-  padding-bottom: 20px;
-  color: gray;
 }
-.kreska::after {
+.items__footer::after {
   content: "";
+  display: inline-flex;
   border-right: 1px solid rgb(153, 145, 145);
   height: 30px;
   align-items: center;
-  margin-top: -10px;
+  padding-left: 8px;
+  margin-right: 8px;
 }
-.pogo {
+.links__footer {
   display: inline-flex;
   color: gray;
-  padding-left: 8px;
-  padding-right: 8px;
-  margin-top: 0px;
+}
+.items__footer__no-border {
+  margin-top: 2px;
 }

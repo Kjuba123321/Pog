@@ -1,24 +1,23 @@
-.sekcja1 {
+.section__about__us {
   background-color: lightgrey;
-  width: 100%;
-  height: 800px;
-  margin-bottom: -100px;
+  height: 820px;
   border: 2px solid transparent;
   text-align: center;
   align-items: center;
 }
-.linia1 {
+.line__about__us {
   text-align: center;
   width: 15%;
   border: 2px solid rgb(236, 166, 73);
   color: rgb(236, 166, 73);
   border-radius: 10px;
 }
-.h1 {
+.title__about__us {
   color: rgb(236, 166, 73);
   letter-spacing: 12px;
+  font-size: 27px;
 }
-.tekst {
+.div__about__us {
   border: 2px solid transparent;
   width: 62.5%;
   margin-left: auto;
@@ -26,39 +25,40 @@
   height: 450px;
   display: inline-flex;
 }
-.tekst1 {
+.text__about__us {
   border: 2px solid transparent;
   width: 50%;
   text-align: justify;
   word-spacing: 5px;
   color: rgb(68, 67, 67);
 }
-.zdjecie1 {
+.img__about__us {
   border: 2px solid transparent;
   margin-bottom: auto;
   width: 45%;
   height: 85%;
   margin-left: auto;
-  content: url(Pani.png);
+  content: url(/img/Pani.png);
 }
-.link {
-  border: 2px solid transparent;
+.to__download {
+  border: 2px solid rgb(197, 197, 197);
   width: 62.5%;
   margin-left: auto;
   margin-right: auto;
   height: 264px;
   display: inline-flex;
+  background-image: linear-gradient(to bottom left, white, rgb(197, 197, 197));
   background-color: white;
 }
-.zdjecie2 {
+.img__to__download {
   border: 2px solid transparent;
   margin-top: 10px;
   margin-left: 10px;
   width: 30%;
   height: 90%;
-  content: url(Ksiazki.jpg);
+  content: url(/img/Ksiazki.jpg);
 }
-.dopobrania {
+.text__to__download {
   border: 2px solid transparent;
   width: 60%;
   height: 90%;
@@ -70,15 +70,20 @@
   font-size: 27px;
   color: rgb(68, 67, 67);
 }
-.span {
-  font-size: 17px;
+.title__to__download {
+  color: rgb(236, 166, 73);
+  font-size: 27px;
 }
-.linkus {
-  text-align: justify;
-  padding-left: 0px;
-  margin-top: 5px;
+.text__to__download {
   font-size: 20px;
 }
-.Głowica {
-  color: rgb(236, 166, 73);
+.link__to__download {
+  padding-left: 0px;
+  margin-top: 15px;
+  text-decoration: none;
+  text-decoration: none;
+  display: inline-flex;
+  color: grey;
+  font-size: 27px;
+  transition: 1.5s;
 }

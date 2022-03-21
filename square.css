@@ -1,0 +1,23 @@
+.square {
+  border: 2px solid transparent;
+  height: 1500px;
+  background-color: lightgray;
+  font-size: 20px;
+  align-items: center;
+  text-align: center;
+}
+.title__square {
+  color: rgb(236, 166, 73);
+  letter-spacing: 12px;
+  font-size: 27px;
+}
+.line__square {
+  text-align: center;
+  width: 25%;
+  border: 2px solid rgb(236, 166, 73);
+  color: rgb(236, 166, 73);
+  border-radius: 10px;
+}
+.description__square {
+  font-size: 20px;
+}

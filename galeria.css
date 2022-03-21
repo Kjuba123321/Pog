@@ -1,0 +1,188 @@
+.gallery {
+  border: 2px solid transparent;
+  height: 1650px;
+  background-color: lightgray;
+  font-size: 20px;
+  align-items: center;
+  text-align: center;
+}
+.title__gallery {
+  color: rgb(236, 166, 73);
+  letter-spacing: 12px;
+  font-size: 27px;
+}
+.line__gallery {
+  text-align: center;
+  width: 15%;
+  border: 2px solid rgb(236, 166, 73);
+  color: rgb(236, 166, 73);
+  border-radius: 10px;
+}
+.square__gallery {
+  border: 1px solid lightgray;
+  width: 50%;
+  height: 300px;
+  margin-left: auto;
+  margin-right: auto;
+  background-image: linear-gradient(to bottom left, white, rgb(197, 197, 197));
+  display: inline-flex;
+  margin-top: 20px;
+}
+
+.img__square__gallery {
+  border: 2px solid transparent;
+  margin-top: 10px;
+  margin-left: 10px;
+  width: 30%;
+  height: 90%;
+  content: url(/img/Ksiazki.jpg);
+}
+.title__square__gallery {
+  padding-left: 8px;
+  padding-top: 10px;
+  font-size: 27px;
+  color: rgb(236, 166, 73);
+  text-align: left;
+  padding-top: 10px;
+}
+.text__square__gallery {
+  font-size: 20px;
+  color: rgb(68, 67, 67);
+}
+.link__square__gallery {
+  padding-left: 0px;
+  margin-top: 15px;
+  text-decoration: none;
+  text-decoration: none;
+  display: inline-flex;
+  color: grey;
+  transition: 1.5s;
+}
+.standard__gallery {
+  border: 1px solid lightgray;
+  width: 50%;
+  height: 300px;
+  margin-left: auto;
+  margin-right: auto;
+  background-image: linear-gradient(to bottom left, white, rgb(197, 197, 197));
+  display: inline-flex;
+  margin-top: 20px;
+}
+.img__standard__gallery {
+  border: 2px solid transparent;
+  margin-top: 10px;
+  margin-left: 10px;
+  width: 30%;
+  height: 90%;
+  content: url(/img/Schody2.png);
+}
+.title__standard__gallery {
+  padding-left: 8px;
+  padding-top: 10px;
+  font-size: 27px;
+  color: rgb(236, 166, 73);
+  text-align: left;
+  padding-top: 10px;
+}
+.text__standard__gallery {
+  font-size: 20px;
+  color: rgb(68, 67, 67);
+}
+.link__standard__gallery {
+  padding-left: 0px;
+  margin-top: 15px;
+  text-decoration: none;
+  text-decoration: none;
+  display: inline-flex;
+  color: grey;
+  transition: 1.5s;
+}
+.wide__gallery {
+  border: 1px solid lightgray;
+  width: 50%;
+  height: 300px;
+  margin-left: auto;
+  margin-right: auto;
+  background-image: linear-gradient(to bottom left, white, rgb(197, 197, 197));
+  display: inline-flex;
+  margin-top: 20px;
+}
+.img__wide__gallery {
+  border: 2px solid transparent;
+  margin-top: 10px;
+  margin-left: 10px;
+  width: 30%;
+  height: 90%;
+  content: url(/img/couch.png);
+}
+.title__wide__gallery {
+  padding-left: 8px;
+  padding-top: 10px;
+  font-size: 27px;
+  color: rgb(236, 166, 73);
+  text-align: left;
+  padding-top: 10px;
+}
+.text__wide__gallery {
+  font-size: 20px;
+  color: rgb(68, 67, 67);
+}
+.link__wide__gallery {
+  padding-left: 0px;
+  margin-top: 15px;
+  text-decoration: none;
+  text-decoration: none;
+  display: inline-flex;
+  color: grey;
+  transition: 1.5s;
+}
+.offert__gallery {
+  border: 2px solid rgb(197, 197, 197);
+  width: 50%;
+  height: 500px;
+  margin-left: auto;
+  margin-right: auto;
+  box-shadow: 0 0 5px 0 gray;
+  display: inline-flex;
+  margin-top: 20px;
+}
+.img__offert__gallery {
+  border: 2px solid transparent;
+  width: 70%;
+  content: url(/img/Galeria.jpg);
+  background-color: lightgray;
+}
+.title__offert__gallery {
+  border: 2px solid rgb(197, 197, 197);
+  border-left: none;
+  width: 30%;
+  height: 71%;
+  text-align: left;
+  align-items: left;
+  padding-top: 15%;
+  padding-left: 8px;
+  background-color: lightgray;
+  background-image: linear-gradient(to bottom left, white, rgb(197, 197, 197));
+  color: rgb(236, 166, 73);
+  font-size: 27px;
+}
+.line__offert__gallery {
+  width: 20%;
+  padding-right: 40px;
+  margin-left: 1px;
+  border: 1px solid rgb(236, 166, 73);
+  border-radius: 10px;
+}
+.text__offert__gallery {
+  font-size: 20px;
+  color: rgb(68, 67, 67);
+}
+.link__offert__gallery {
+  padding-left: 0px;
+  margin-top: 15px;
+  text-decoration: none;
+  text-decoration: none;
+  display: inline-flex;
+  color: grey;
+  transition: 1.5s;
+}
