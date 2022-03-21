@@ -135,11 +135,10 @@ a:hover {
 }
 .footer {
   border: 2px solid transparent;
-  margin-top: 100px;
   height: 320px;
+  padding-top: 10px;
   display: flex;
   border: 2px solid transparent;
-  margin-top: 25px;
   display: block;
   align-items: center;
 }

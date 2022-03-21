@@ -1,0 +1,31 @@
+.standard {
+  border: 2px solid transparent;
+  height: 880px;
+  width: auto;
+  background-color: lightgray;
+  font-size: 20px;
+  align-items: center;
+  text-align: center;
+}
+.title__standard {
+  color: rgb(236, 166, 73);
+  letter-spacing: 12px;
+  font-size: 27px;
+  text-align: center;
+}
+.line__standard {
+  text-align: left;
+  width: 25%;
+  border: 2px solid rgb(236, 166, 73);
+  color: rgb(236, 166, 73);
+  border-radius: 10px;
+}
+.link__return {
+  text-align: left;
+  text-decoration: none;
+  display: inline-flex;
+  color: grey;
+  transition: 1.5s;
+  font-size: 27px;
+  margin-bottom: 15px;
+}
