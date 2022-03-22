@@ -143,26 +143,21 @@
   margin-left: auto;
   margin-right: auto;
   box-shadow: 0 0 5px 0 gray;
+  background-image: linear-gradient(to bottom left, white, rgb(197, 197, 197));
   display: inline-flex;
   margin-top: 20px;
 }
 .img__offert__gallery {
-  border: 2px solid transparent;
   width: 70%;
   content: url(/img/Galeria.jpg);
-  background-color: lightgray;
 }
 .title__offert__gallery {
-  border: 2px solid rgb(197, 197, 197);
-  border-left: none;
   width: 30%;
   height: 71%;
   text-align: left;
   align-items: left;
   padding-top: 15%;
   padding-left: 8px;
-  background-color: lightgray;
-  background-image: linear-gradient(to bottom left, white, rgb(197, 197, 197));
   color: rgb(236, 166, 73);
   font-size: 27px;
 }

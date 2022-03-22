@@ -1,0 +1,126 @@
+.wide {
+  border: 2px solid transparent;
+  height: 845px;
+  width: auto;
+  background-color: lightgray;
+  font-size: 20px;
+  align-items: center;
+  text-align: center;
+  display: block;
+}
+.title__wide {
+  color: rgb(236, 166, 73);
+  letter-spacing: 12px;
+  font-size: 27px;
+  text-align: center;
+}
+.line__wide {
+  text-align: left;
+  width: 25%;
+  border: 2px solid rgb(236, 166, 73);
+  color: rgb(236, 166, 73);
+  border-radius: 10px;
+}
+.link__return {
+  text-align: left;
+  text-decoration: none;
+  display: inline-flex;
+  color: grey;
+  transition: 1.5s;
+  font-size: 27px;
+  margin-bottom: 15px;
+}
+.wide__gallery__desks {
+  border: 2px solid transparent;
+  margin-left: auto;
+  margin-right: auto;
+  width: 90%;
+  height: 300px;
+  display: inline-flex;
+}
+.desk__image__one {
+  border: 2px solid transparent;
+  height: 99%;
+  width: 20%;
+  padding-right: 20px;
+  content: url(/img/wide_img/w1.jpg);
+}
+.desk__image__two {
+  border: 2px solid transparent;
+  height: 99%;
+  width: 20%;
+  padding-right: 20px;
+  content: url(/img/wide_img/w2.jpg);
+}
+.desk__image__three {
+  border: 2px solid transparent;
+  height: 99%;
+  width: 20%;
+  padding-right: 20px;
+  content: url(/img/wide_img/w3.jpg);
+}
+.desk__image__four {
+  border: 2px solid transparent;
+  height: 99%;
+  width: 20%;
+  padding-right: 20px;
+  content: url(/img/wide_img/w4.jpg);
+}
+.desk__image__five {
+  border: 2px solid transparent;
+  height: 99%;
+  width: 20%;
+  padding-right: 20px;
+  content: url(/img/wide_img/w5.jpg);
+}
+.wide__gallery__text {
+  margin-left: auto;
+  margin-right: auto;
+  width: 90%;
+  text-align: justify;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+.wide__gallery__beds {
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+  border: 2px solid transparent;
+  height: 300px;
+  display: inline-flex;
+}
+.bed__image__one {
+  border: 2px solid transparent;
+  height: 99%;
+  width: 20%;
+  padding-right: 20px;
+  content: url(/img/wide_img/w6.jpg);
+}
+.bed__image__two {
+  border: 2px solid transparent;
+  height: 99%;
+  width: 20%;
+  padding-right: 20px;
+  content: url(/img/wide_img/w7.jpg);
+}
+.bed__image__three {
+  border: 2px solid transparent;
+  height: 99%;
+  width: 20%;
+  padding-right: 20px;
+  content: url(/img/wide_img/w8.jpg);
+}
+.bed__image__four {
+  border: 2px solid transparent;
+  height: 99%;
+  width: 20%;
+  padding-right: 20px;
+  content: url(/img/wide_img/w9.jpg);
+}
+.bed__image__five {
+  border: 2px solid transparent;
+  height: 99%;
+  width: 20%;
+  padding-right: 20px;
+  content: url(/img/wide_img/w10.jpg);
+}

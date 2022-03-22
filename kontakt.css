@@ -1,0 +1,59 @@
+.contact {
+  border: 2px solid transparent;
+  height: 590px;
+  background-color: lightgray;
+  font-size: 20px;
+  align-items: center;
+  text-align: center;
+  padding-top: 70px;
+}
+.contact__title {
+  color: rgb(236, 166, 73);
+  letter-spacing: 12px;
+  font-size: 27px;
+}
+.contact__line {
+  text-align: center;
+  width: 15%;
+  border: 2px solid rgb(236, 166, 73);
+  color: rgb(236, 166, 73);
+  border-radius: 10px;
+}
+.contact__text {
+  border: 2px solid transparent;
+  width: 25%;
+  height: 200px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 30px;
+}
+.contact__description {
+  font-size: 17px;
+}
+.contact__email__title {
+  font-size: 27px;
+}
+.contact__email {
+  font-size: 17px;
+  color: rgb(236, 166, 73);
+}
+.contact__email__text {
+  font-size: 15px;
+}
+.contact__telephone {
+  font-size: 15px;
+}
+.telephone__text {
+  font-size: 27px;
+}
+.contact__note {
+  font-size: 15px;
+}
+.location__map {
+  border: 2px solid transparent;
+  margin-left: auto;
+  margin-right: auto;
+  width: 55%;
+  height: 300px;
+  content: url(/img/mapa.png);
+}

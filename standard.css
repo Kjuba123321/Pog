@@ -1,6 +1,6 @@
 .standard {
   border: 2px solid transparent;
-  height: 880px;
+  height: 2150px;
   width: auto;
   background-color: lightgray;
   font-size: 20px;
@@ -15,7 +15,7 @@
 }
 .line__standard {
   text-align: left;
-  width: 25%;
+  width: 30%;
   border: 2px solid rgb(236, 166, 73);
   color: rgb(236, 166, 73);
   border-radius: 10px;
@@ -28,4 +28,41 @@
   transition: 1.5s;
   font-size: 27px;
   margin-bottom: 15px;
+}
+.standard__gallery {
+  border: 2px solid transparent;
+  height: 2000px;
+  width: 45%;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  margin-bottom: 55px;
+}
+.standard__img__one {
+  border: 2px solid transparent;
+  width: 100%;
+  height: 24.8%;
+  content: url(/img/standard_img/s1.jpg);
+  padding-top: 10px;
+}
+.standard__img__two {
+  border: 2px solid transparent;
+  width: 100%;
+  height: 24.8%;
+  content: url(/img/standard_img/s2.jpg);
+  padding-top: 10px;
+}
+.standard__img__three {
+  border: 2px solid transparent;
+  width: 100%;
+  height: 24.8%;
+  content: url(/img/standard_img/s3.jpg);
+  padding-top: 10px;
+}
+.standard__img__four {
+  border: 2px solid transparent;
+  width: 100%;
+  height: 24.8%;
+  content: url(/img/standard_img/s4.jpg);
+  padding-top: 10px;
 }

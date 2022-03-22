@@ -41,14 +41,12 @@
   content: url(/img/Pani.png);
 }
 .to__download {
-  border: 2px solid rgb(197, 197, 197);
   width: 62.5%;
   margin-left: auto;
   margin-right: auto;
   height: 264px;
   display: inline-flex;
   background-image: linear-gradient(to bottom left, white, rgb(197, 197, 197));
-  background-color: white;
 }
 .img__to__download {
   border: 2px solid transparent;
