@@ -38,7 +38,6 @@ a:hover {
 }
 .navigation__item::after {
   content: "";
-  display: inline-flex;
   border-right: 1px solid rgb(153, 145, 145);
   transform: skew(-20deg);
   height: 45px;
@@ -47,7 +46,6 @@ a:hover {
   padding-right: 8px;
 }
 .no-border {
-  display: inline-flex;
   border: none;
 }
 .section__introduction {
@@ -57,7 +55,7 @@ a:hover {
   display: flex;
 }
 .div__introduction {
-  width: 30%;
+  width: 50%;
   height: 50px;
   padding: 30px 10px 10px 15px;
   padding-top: 60px;
@@ -69,7 +67,7 @@ a:hover {
 }
 .img__introduction {
   display: inline-flex;
-  width: 100%;
+  width: 70%;
   content: url(/img/schody1.png);
 }
 .section__home {

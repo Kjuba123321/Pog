@@ -27,15 +27,16 @@
 }
 .text__about__us {
   border: 2px solid transparent;
-  width: 50%;
+  width: 60%;
   text-align: justify;
   word-spacing: 5px;
   color: rgb(68, 67, 67);
+  padding-right: 20px;
 }
 .img__about__us {
   border: 2px solid transparent;
   margin-bottom: auto;
-  width: 45%;
+  width: 40%;
   height: 85%;
   margin-left: auto;
   content: url(/img/Pani.png);
